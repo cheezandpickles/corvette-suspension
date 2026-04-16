@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large binary files — handle selectively later
+*.step
+*.stp
+*.stl
+*.iges
+*.igs
+
+# Scan data — often huge
+*.ply
+*.obj
+scans/raw/
+
+# Secrets
+.env
+*.key
